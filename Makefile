@@ -1,7 +1,7 @@
 NASM = nasm
 DD = dd
-SRC_DIR = BOOT
-BUILD_DIR = BUILD
+SRC_DIR = src/BOOT
+BUILD_DIR = src/BUILD
 BOOT_SRC = $(SRC_DIR)/BOOT.asm
 BOOT_BIN = $(BUILD_DIR)/BOOT.bin
 BOOT_FLP = $(BUILD_DIR)/boot.flp
